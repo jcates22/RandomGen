@@ -2,26 +2,26 @@ import random
 
 
 def lottery():
-    num1m = random.randrange(1, 70)
-    num2m = random.randrange(1, 70)
-    num3m = random.randrange(1, 70)
-    num4m = random.randrange(1, 70)
-    num5m = random.randrange(1, 70)
+    num1m = random.randint(1, 70)
+    num2m = random.randint(1, 70)
+    num3m = random.randint(1, 70)
+    num4m = random.randint(1, 70)
+    num5m = random.randint(1, 70)
 
-    num1p = random.randrange(1, 69)
-    num2p = random.randrange(1, 69)
-    num3p = random.randrange(1, 69)
-    num4p = random.randrange(1, 69)
-    num5p = random.randrange(1, 69)
+    num1p = random.randint(1, 69)
+    num2p = random.randint(1, 69)
+    num3p = random.randint(1, 69)
+    num4p = random.randint(1, 69)
+    num5p = random.randint(1, 69)
 
-    num1f = random.randrange(1, 42)
-    num2f = random.randrange(1, 42)
-    num3f = random.randrange(1, 42)
-    num4f = random.randrange(1, 42)
-    num5f = random.randrange(1, 42)
+    num1f = random.randint(1, 42)
+    num2f = random.randint(1, 42)
+    num3f = random.randint(1, 42)
+    num4f = random.randint(1, 42)
+    num5f = random.randint(1, 42)
 
-    mb = random.randrange(1, 25)
-    pb = random.randrange(1, 26)
+    mb = random.randint(1, 25)
+    pb = random.randint(1, 26)
 
     result_m = (sorted([num1m, num2m, num3m, num4m, num5m]))
     result_p = (sorted([num1p, num2p, num3p, num4p, num5p]))
