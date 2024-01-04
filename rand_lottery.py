@@ -32,7 +32,7 @@ def rand_lottery():
             print(cb)
             print('-' * 30)
     elif game.startswith('f'):
-        for _ in range(6):
+        for _ in range(7):
             print('Random number between 1 and 42')
             num1f = random.randrange(1, 43)
             num2f = random.randrange(1, 43)
