@@ -73,7 +73,7 @@ def rand_lottery():
             print(pb)
             print('-' * 30)
     else:
-        print('You did not select a game')
+        print('You did not select a valid game')
 
 
 rand_lottery()
