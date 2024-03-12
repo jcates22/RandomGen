@@ -59,7 +59,7 @@ def rand_lottery():
             print('-' * 30)
     elif game.startswith('p'):
         for _ in range(49):
-            print(f'Random number {_} between 1 and 69')
+            print(f'Random number {_+1} between 1 and 69')
             num1p = random.randrange(1, 70)
             num2p = random.randrange(1, 70)
             num3p = random.randrange(1, 70)
