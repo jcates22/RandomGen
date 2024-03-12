@@ -17,7 +17,7 @@ def rand_lottery():
     game = game.lower()
 
     if game.startswith('c'):
-        for _ in range(50):
+        for _ in range(49):
             print(f'Random number {_} between 1 and 60')
             num1c = random.randrange(1, 61)
             num2c = random.randrange(1, 61)
@@ -32,7 +32,7 @@ def rand_lottery():
             print(cb)
             print('-' * 30)
     elif game.startswith('f'):
-        for _ in range(50):
+        for _ in range(49):
             print(f'Random number {_} between 1 and 42')
             num1f = random.randrange(1, 43)
             num2f = random.randrange(1, 43)
@@ -43,7 +43,7 @@ def rand_lottery():
             print(result_f)
             print('-' * 30)
     elif game.startswith('m'):
-        for _ in range(50):
+        for _ in range(49):
             print(f'Random number {_} between 1 and 70')
             num1m = random.randrange(1, 71)
             num2m = random.randrange(1, 71)
@@ -58,7 +58,7 @@ def rand_lottery():
             print(mb)
             print('-' * 30)
     elif game.startswith('p'):
-        for _ in range(50):
+        for _ in range(49):
             print(f'Random number {_} between 1 and 69')
             num1p = random.randrange(1, 70)
             num2p = random.randrange(1, 70)
